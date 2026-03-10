@@ -19,7 +19,7 @@ fun procesareEbook(Ebook: String) :String{
 
 fun main(args: Array<String>)
 {
-    val mockEbookText = """
+    val Ebook = """
         23rv3r  32c23  gegdrgsef.
         
         
@@ -29,6 +29,7 @@ fun main(args: Array<String>)
           44 
         
     """.trimIndent()
-    val cleanText = procesareEbook(mockEbookText)
-    println(cleanText)
+    val Text = procesareEbook(Ebook)
+    println(Text)
+
 }
